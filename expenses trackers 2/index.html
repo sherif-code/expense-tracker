@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>expense tracker</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="images">
+          <h1 class="h1">Expense Tracker</h1>
+          <div class="image1">
+            <h1>Hi,there</h1>
+          </div>
+        </div>
+
+        <form>
+          <label for="expense-name">Expense:</label>
+          <input type="text" id="expense-name" placeholder="Enter-Expense" />
+          <label for="expense-amount">Amount:</label>
+          <input type="number" id="expense-amount" />
+          <label for="date">Date:</label>
+          <input type="date" id="expense-date" />
+          <button id="add-expense">Add Expense</button>
+          <h1>Expenses</h1>
+        </form>
+        <div class="expense-list">
+          <ul id="expenses"></ul>
+        </div>
+        <p id="total-expense">$0.00</p>
+      </div>
+    </div>
+
+    <script src="srcipt.js"></script>
+  </body>
+</html>
